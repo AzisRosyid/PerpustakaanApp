@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi.fragments
+package com.example.perpustakaanapp.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,9 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.perpustakaanapi.LoginActivity
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.databinding.FragmentLoginBinding
+import com.example.perpustakaanapp.LoginActivity
+import com.example.perpustakaanapp.databinding.FragmentLoginBinding
 
 class LoginFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi.book
+package com.example.perpustakaanapp.book
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -11,23 +11,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
 import android.view.View
-import android.webkit.WebView
 import androidx.core.app.ActivityCompat
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.databinding.ActivityDetailBookBinding
-import com.example.perpustakaanapi.models.Book
-import com.example.perpustakaanapi.models.BookId
+import com.example.perpustakaanapp.ApiRetrofit
+import com.example.perpustakaanapp.Method
+import com.example.perpustakaanapp.R
+import com.example.perpustakaanapp.databinding.ActivityDetailBookBinding
+import com.example.perpustakaanapp.models.BookId
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import java.io.File
-import java.lang.Exception
-import java.net.URI
 
 class DetailBookActivity : AppCompatActivity() {
 

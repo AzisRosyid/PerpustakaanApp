@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi.fragments
+package com.example.perpustakaanapp.fragments
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,15 +7,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.LoginActivity
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.adapters.BookAdapter
-import com.example.perpustakaanapi.book.DetailBookActivity
-import com.example.perpustakaanapi.databinding.FragmentMyBookBinding
-import com.example.perpustakaanapi.models.Book
-import com.example.perpustakaanapi.models.Books
+import com.example.perpustakaanapp.ApiRetrofit
+import com.example.perpustakaanapp.Method
+import com.example.perpustakaanapp.adapters.BookAdapter
+import com.example.perpustakaanapp.book.DetailBookActivity
+import com.example.perpustakaanapp.databinding.FragmentMyBookBinding
+import com.example.perpustakaanapp.models.Book
+import com.example.perpustakaanapp.models.Books
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

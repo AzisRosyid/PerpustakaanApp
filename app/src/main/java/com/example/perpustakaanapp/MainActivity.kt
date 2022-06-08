@@ -1,15 +1,10 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.SearchView
-import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
-import com.example.perpustakaanapi.databinding.ActivityMainBinding
-import com.example.perpustakaanapi.fragments.*
-import com.example.perpustakaanapi.book.SearchActivity
+import com.example.perpustakaanapp.databinding.ActivityMainBinding
+import com.example.perpustakaanapp.fragments.*
 
 class MainActivity : AppCompatActivity() {
 

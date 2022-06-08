@@ -1,14 +1,11 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
-import com.example.perpustakaanapi.databinding.ActivityLoginBinding
-import com.example.perpustakaanapi.models.Profile
-import com.example.perpustakaanapi.models.Response
-import com.example.perpustakaanapi.models.Token
+import com.example.perpustakaanapp.databinding.ActivityLoginBinding
+import com.example.perpustakaanapp.models.Token
 import com.google.gson.JsonObject
 import org.json.JSONObject
 import retrofit2.Call

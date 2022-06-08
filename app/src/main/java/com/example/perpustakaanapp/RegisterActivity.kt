@@ -1,32 +1,27 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
-import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.provider.OpenableColumns
-import android.provider.Settings
 import android.util.Patterns
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.core.net.toFile
-import com.example.perpustakaanapi.databinding.ActivityRegisterBinding
-import com.example.perpustakaanapi.models.Response
+import com.example.perpustakaanapp.databinding.ActivityRegisterBinding
+import com.example.perpustakaanapp.models.Response
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import okhttp3.RequestBody.Companion.asRequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
-import okio.BufferedSink
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
 import java.io.File
-import java.io.FileInputStream
 
 class RegisterActivity : AppCompatActivity() {
 

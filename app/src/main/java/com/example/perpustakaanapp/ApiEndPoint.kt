@@ -1,12 +1,10 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
-import com.example.perpustakaanapi.models.*
-import com.google.gson.JsonArray
+import com.example.perpustakaanapp.models.*
 import com.google.gson.JsonObject
 import okhttp3.MultipartBody
 import okhttp3.RequestBody
 import okhttp3.ResponseBody
-import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.http.*
 

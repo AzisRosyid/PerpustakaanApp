@@ -1,21 +1,12 @@
-package com.example.perpustakaanapi.fragments
+package com.example.perpustakaanapp.fragments
 
 import android.os.Bundle
-import android.os.Environment
-import android.provider.MediaStore
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.databinding.FragmentHomeBinding
-import com.example.perpustakaanapi.models.Books
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
-import java.io.File
+import com.example.perpustakaanapp.ApiRetrofit
+import com.example.perpustakaanapp.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 

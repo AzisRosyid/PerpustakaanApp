@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
 import org.junit.Test
 

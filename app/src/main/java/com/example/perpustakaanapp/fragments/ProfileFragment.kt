@@ -1,33 +1,23 @@
-package com.example.perpustakaanapi.fragments
+package com.example.perpustakaanapp.fragments
 
 import android.content.Intent
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.model.LazyHeaders
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.LoginActivity
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.databinding.FragmentProfileBinding
-import com.example.perpustakaanapi.models.Profile
-import com.example.perpustakaanapi.models.User
+import com.example.perpustakaanapp.LoginActivity
+import com.example.perpustakaanapp.Method
+import com.example.perpustakaanapp.R
+import com.example.perpustakaanapp.databinding.FragmentProfileBinding
+import com.example.perpustakaanapp.models.Profile
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.net.HttpURLConnection
-import java.net.URL
-import java.util.concurrent.Executors
 
 
 class ProfileFragment : Fragment() {

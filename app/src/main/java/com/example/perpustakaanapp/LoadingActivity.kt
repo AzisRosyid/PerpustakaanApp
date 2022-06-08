@@ -1,14 +1,12 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.perpustakaanapi.databinding.ActivityLoadingBinding
-import com.example.perpustakaanapi.models.Profile
-import com.example.perpustakaanapi.models.Token
-import org.json.JSONObject
+import com.example.perpustakaanapp.databinding.ActivityLoadingBinding
+import com.example.perpustakaanapp.models.Profile
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi
+package com.example.perpustakaanapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

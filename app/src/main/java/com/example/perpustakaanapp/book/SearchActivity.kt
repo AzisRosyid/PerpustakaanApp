@@ -1,18 +1,17 @@
-package com.example.perpustakaanapi.book
+package com.example.perpustakaanapp.book
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
-import android.widget.SearchView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.adapters.BookAdapter
-import com.example.perpustakaanapi.databinding.ActivitySearchBinding
-import com.example.perpustakaanapi.models.Book
-import com.example.perpustakaanapi.models.Books
+import com.example.perpustakaanapp.ApiRetrofit
+import com.example.perpustakaanapp.Method
+import com.example.perpustakaanapp.R
+import com.example.perpustakaanapp.adapters.BookAdapter
+import com.example.perpustakaanapp.databinding.ActivitySearchBinding
+import com.example.perpustakaanapp.models.Book
+import com.example.perpustakaanapp.models.Books
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

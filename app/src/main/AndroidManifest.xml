@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.perpustakaanapi">
+    package="com.example.perpustakaanapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
@@ -19,22 +19,22 @@
         android:theme="@style/Theme.PerpustakaanApi"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.perpustakaanapp.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".book.DetailBookActivity"
+            android:name="com.example.perpustakaanapp.book.DetailBookActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.example.perpustakaanapp.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.example.perpustakaanapp.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".book.SearchActivity"
+            android:name="com.example.perpustakaanapp.book.SearchActivity"
             android:exported="false" />
         <activity
-            android:name=".LoadingActivity"
+            android:name="com.example.perpustakaanapp.LoadingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi.adapters
+package com.example.perpustakaanapp.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -7,11 +7,10 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.model.GlideUrl
 import com.bumptech.glide.load.model.LazyHeaders
-import com.example.perpustakaanapi.ApiRetrofit
-import com.example.perpustakaanapi.Method
-import com.example.perpustakaanapi.R
-import com.example.perpustakaanapi.databinding.AdapterBookBinding
-import com.example.perpustakaanapi.models.Book
+import com.example.perpustakaanapp.Method
+import com.example.perpustakaanapp.R
+import com.example.perpustakaanapp.databinding.AdapterBookBinding
+import com.example.perpustakaanapp.models.Book
 
 class BookAdapter(val book: ArrayList<Book>, val listener: OnClickListener): RecyclerView.Adapter<BookAdapter.ViewHolder>() {
     class ViewHolder(val binding: AdapterBookBinding): RecyclerView.ViewHolder(binding.root)

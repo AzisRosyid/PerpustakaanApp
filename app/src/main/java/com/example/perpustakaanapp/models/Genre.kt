@@ -1,4 +1,4 @@
-package com.example.perpustakaanapi.models
+package com.example.perpustakaanapp.models
 
 import java.io.Serializable
 
